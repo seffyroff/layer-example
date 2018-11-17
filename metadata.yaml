@@ -1,0 +1,21 @@
+name: layer-example
+summary: A very basic example charm
+maintainer: Seffyroff <seffyroff@gmail.com>
+description: |
+  This is a charm I built as part of my beginner charming tutorial.
+tags:
+  - misc
+  - tutorials
+# subordinate: false
+# provides:
+#   provides-relation:
+#     interface: interface-name
+requires:
+  database:
+    interface: mysql
+# peers:
+#   peer-relation:
+#     interface: interface-name
+series:
+  - xenial
+  - bionic

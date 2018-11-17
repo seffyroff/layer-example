@@ -1,0 +1,9 @@
+includes:
+  - 'layer:basic'  # if you use any interfaces, add them here
+  - 'layer:apt'
+  - 'interface:mysql'
+options:
+  apt:
+    packages:
+      - hello
+repo: git@github.com:seffyroff/layer-example.git
